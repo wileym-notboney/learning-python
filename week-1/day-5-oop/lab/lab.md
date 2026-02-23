@@ -51,3 +51,35 @@ and print the results.
 ---
 
 Solution in `solution/models.py`.
+
+---
+
+## End of Day — Commit Your Work
+
+**Step 1 — Branch off main (do this once at the start of the day).**
+```bash
+git checkout main
+git checkout -b day-5-oop
+```
+If you already created the branch earlier:
+```bash
+git checkout day-5-oop
+```
+
+**Step 2 — Stage your work.**
+```bash
+git add week-1/day-5-oop/my-work/
+```
+
+**Step 3 — Commit.**
+```bash
+git commit -m "day 5: OOP — entity models complete"
+```
+
+**Step 4 — Ask for your evaluation.**
+Tell Claude Code:
+> "evaluate day 5"
+
+> **Tip:** OOP has the steepest learning curve of the week. If `self` or
+> `super().__init__()` still feels like magic, say so in `my-work/notes.md` —
+> Day 6 and the capstone use classes heavily so it's worth nailing down.

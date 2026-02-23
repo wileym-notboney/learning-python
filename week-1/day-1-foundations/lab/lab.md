@@ -48,3 +48,41 @@ print both in the report.
 ---
 
 When you're done, peek at `solution/solution.py` — but try it yourself first!
+
+---
+
+## End of Day — Commit Your Work
+
+You've finished Day 1. Save your work to git so it can be evaluated.
+
+**Step 1 — Make sure you're on your day branch.**
+If you haven't created it yet, do this now:
+```bash
+git checkout main
+git checkout -b day-1-foundations
+```
+If the branch already exists:
+```bash
+git checkout day-1-foundations
+```
+
+**Step 2 — Stage your work.**
+```bash
+git add week-1/day-1-foundations/my-work/
+```
+
+**Step 3 — Commit.**
+```bash
+git commit -m "day 1: foundations — worksheet and lab complete"
+```
+
+**Step 4 — Ask for your evaluation.**
+Tell Claude Code:
+> "evaluate day 1"
+
+Claude will read your work, compare it against the requirements, and update
+Day 2's content based on what you need more practice with.
+
+> **Tip:** The more you fill in `my-work/notes.md`, the more useful the
+> evaluation will be. Even one bullet point under "Things that confused me"
+> helps a lot.

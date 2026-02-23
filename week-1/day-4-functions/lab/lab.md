@@ -56,3 +56,35 @@ def collect_unique_states(entities):
 ---
 
 Solution in `solution/`.
+
+---
+
+## End of Day — Commit Your Work
+
+**Step 1 — Branch off main (do this once at the start of the day).**
+```bash
+git checkout main
+git checkout -b day-4-functions
+```
+If you already created the branch earlier:
+```bash
+git checkout day-4-functions
+```
+
+**Step 2 — Stage your work.**
+```bash
+git add week-1/day-4-functions/my-work/
+```
+
+**Step 3 — Commit.**
+```bash
+git commit -m "day 4: functions and modules — worksheet and lab complete"
+```
+
+**Step 4 — Ask for your evaluation.**
+Tell Claude Code:
+> "evaluate day 4"
+
+> **Tip:** The jump from one file to two files (modules) is a big mental shift.
+> Note whether the `import` stuff felt clear — Day 5's class structure builds
+> on top of it.

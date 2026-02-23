@@ -68,3 +68,36 @@ Domains found:
 ---
 
 Solution in `solution/fetch_states.py`.
+
+---
+
+## End of Day — Commit Your Work
+
+**Step 1 — Branch off main (do this once at the start of the day).**
+```bash
+git checkout main
+git checkout -b day-6-apis
+```
+If you already created the branch earlier:
+```bash
+git checkout day-6-apis
+```
+
+**Step 2 — Stage your work.**
+*(Don't commit your `.env` file — it's in `.gitignore` and won't be included.)*
+```bash
+git add week-1/day-6-apis/my-work/
+```
+
+**Step 3 — Commit.**
+```bash
+git commit -m "day 6: HTTP and APIs — state fetcher complete"
+```
+
+**Step 4 — Ask for your evaluation.**
+Tell Claude Code:
+> "evaluate day 6"
+
+> **Tip:** Tomorrow is capstone day. Note in `my-work/notes.md` anything about
+> HTTP, headers, or environment variables that felt shaky — you'll be using all
+> of it in `home-cli`.

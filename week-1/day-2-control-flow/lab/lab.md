@@ -60,3 +60,34 @@ by name and display them with their state.
 ---
 
 Solution is in `solution/solution.py` — try it yourself first!
+
+---
+
+## End of Day — Commit Your Work
+
+**Step 1 — Branch off main (do this once at the start of the day).**
+```bash
+git checkout main
+git checkout -b day-2-control-flow
+```
+If you already created the branch earlier:
+```bash
+git checkout day-2-control-flow
+```
+
+**Step 2 — Stage your work.**
+```bash
+git add week-1/day-2-control-flow/my-work/
+```
+
+**Step 3 — Commit.**
+```bash
+git commit -m "day 2: control flow — worksheet and lab complete"
+```
+
+**Step 4 — Ask for your evaluation.**
+Tell Claude Code:
+> "evaluate day 2"
+
+> **Tip:** If loops or list comprehensions felt awkward, note it in
+> `my-work/notes.md` — that's the most useful signal for tuning Day 3.

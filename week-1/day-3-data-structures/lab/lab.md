@@ -75,3 +75,35 @@ Unique states found: {'on', 'off', '21.5', 'playing'}
 ---
 
 Solution in `solution/solution.py`.
+
+---
+
+## End of Day — Commit Your Work
+
+**Step 1 — Branch off main (do this once at the start of the day).**
+```bash
+git checkout main
+git checkout -b day-3-data-structures
+```
+If you already created the branch earlier:
+```bash
+git checkout day-3-data-structures
+```
+
+**Step 2 — Stage your work.**
+```bash
+git add week-1/day-3-data-structures/my-work/
+```
+
+**Step 3 — Commit.**
+```bash
+git commit -m "day 3: data structures — worksheet and lab complete"
+```
+
+**Step 4 — Ask for your evaluation.**
+Tell Claude Code:
+> "evaluate day 3"
+
+> **Tip:** Nested dict access (`entity["attributes"]["friendly_name"]`) trips
+> most beginners up. Note in `my-work/notes.md` whether that felt natural or
+> not — Day 4 builds directly on top of it.
